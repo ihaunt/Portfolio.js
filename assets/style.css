@@ -80,7 +80,6 @@ section {
     padding: 0 9%;
     background-size: cover;
     background-position: center;
-
 }
 
 .home-content {
@@ -142,7 +141,7 @@ section {
     color: var(--bg-color);
     z-index: 1;
     overflow: hidden;
-    transition: .5s;
+    transition: .5s;   
 }
 
 .btn-box .btn:hover {
@@ -172,7 +171,6 @@ section {
     background: var(--bg-color);
     z-index: -1;
     transition: .5s;
-
 }
 
 .btn-box .btn:hover::before {
@@ -262,9 +260,7 @@ span {
     border-bottom: .2rem solid var(--second-bg-color);
     border-left: .2rem solid var(--main-color);
     border-right: .2rem solid var(--main-color);
-
 }
-
 
 .education {
     display: flex;
@@ -353,11 +349,9 @@ span {
     padding-bottom: .5rem;
 }
 
-
 .education-content .content .year i {
     padding-right: .5rem;
 }
-
 
 .education-content .content h3 {
     font-size: 2rem;
@@ -368,15 +362,12 @@ span {
     padding-top: .5rem;
 }
 
-
-
 .skills {
 
     max-width: 100px;
     margin: auto;
     text-align: center;
     margin-top: 2.5rem;
-
 }
 
 .skills .skills-row {
@@ -402,7 +393,6 @@ span {
 
 }
 
-
 .skills-box .skills-content img {
     max-width: 80px;
     max-height: 80px;
@@ -423,8 +413,6 @@ span {
     padding: 20px;
     margin: 10px;
 }
-
-
 
 .skills-box .skills-content ul {
     padding: 1.25rem;
@@ -560,3 +548,18 @@ span {
 .contact-form-container .btn-box.btns .btn {
     cursor: pointer;
 }
+
+.loading{
+    width: 30px;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
