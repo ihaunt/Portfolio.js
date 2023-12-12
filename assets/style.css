@@ -86,19 +86,21 @@ section {
 .home-content {
     max-width: 60rem;
     padding: 10rem;
-    flex: 1; 
+    flex: 1;
 }
 
 .home-content h1 {
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
+    margin-left: 4rem;
 
 }
 
 .home-content .text-animate {
     position: relative;
     width: 32.8rem;
+    margin-left: 4rem;
 }
 
 .home-content .text-animate h3 {
@@ -106,11 +108,13 @@ section {
     font-weight: 700;
     color: transparent;
     -webkit-text-stroke: .7px var(--main-color);
+
 }
 
 .home-content p {
     font-size: 1.7rem;
     margin: 2rem 0 4rem;
+    margin-left: 4rem;
 }
 
 .btn-box {
@@ -119,6 +123,7 @@ section {
     justify-content: space-between;
     width: 43.5rem;
     height: 5rem;
+    margin-left: 4rem;
 }
 
 .btn-box .btn {
@@ -180,6 +185,7 @@ section {
     width: 170px;
     display: flex;
     justify-content: space-between;
+    margin-left: 4rem;
 }
 
 .home-sci a {
@@ -229,9 +235,9 @@ span {
 .about-img {
     position: relative;
     position: relative;
-    margin-left: 30rem; 
-    width: 400px;
-    height: 400px;
+    margin-left: 40rem;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -259,41 +265,32 @@ span {
 
 }
 
-.education {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: auto;
-    padding-bottom: 2rem; 
-}
-
 
 .education {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
     flex-direction: column;
     min-height: auto;
-    padding-bottom: 2rem; 
+    padding-bottom: 2rem;
 }
-
 
 .education .education-row {
+    margin-left: 4rem;
     display: flex;
     flex-wrap: wrap;
+}
+
+.education-row:last-child {
+    margin-right: 0;
 }
 
 .education-row .education-column {
     flex: 1 1 40rem;
 }
 
-
-
-
-
-
 .education-column .title {
+    padding: 1rem;
     font-size: 2.5rem;
     margin: 0 0 1.5rem 2rem;
 }
@@ -326,10 +323,10 @@ span {
 
 .education-content .content {
     position: relative;
-    padding: 1rem; 
+    padding: 1rem;
     border: .1rem solid var(--main-color);
     border-radius: .4rem;
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
     overflow: hidden;
 }
 
@@ -347,7 +344,7 @@ span {
 
 .education-content .content:hover::before {
     width: 100%;
-    transition: width 0.5s ease; 
+    transition: width 0.5s ease;
 }
 
 .education-content .content .year {
@@ -449,7 +446,7 @@ span {
 
 .projects-container {
     display: flex;
-    align-items: stretch; 
+    align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -458,7 +455,7 @@ span {
     text-align: center;
     width: 21.875rem;
     padding: 1rem;
-    margin: 1rem;
+    margin: 4rem;
     flex: 1;
     max-width: 300px;
     overflow: hidden;
@@ -468,7 +465,7 @@ span {
     width: 100%;
     height: auto;
     max-width: 100%;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 .project-card {
@@ -484,11 +481,14 @@ span {
 }
 
 .project-title {
+    padding: 2rem;
     margin-bottom: var(--main-color);
+    font-size: 2rem;
 }
 
 .project-details {
     margin-bottom: var(--text-color);
+    font-size: 1.3rem;
 }
 
 .project-link {
@@ -497,28 +497,13 @@ span {
     font-weight: bold;
     display: block;
     margin-top: 1rem;
+    font-size: 1.4rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .contact {
+    
     margin-top: 2rem;
 }
-
 
 .contact-form-container {
     max-width: 50.75rem;
@@ -549,7 +534,7 @@ span {
     border-radius: 5px;
     border: none;
     border: 2px outset var(--main-color);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     outline: none;
     background: transparent;
 }
@@ -563,11 +548,12 @@ span {
 .input-field,
 #email.input-field,
 #name.input-field {
+    color: transparent;
     color: var(--text-color);
 }
 
 .contact-form-container .btn-box.btns {
-    justify-content: center;
+    margin-left: 34%;
     width: 100%;
 }
 
