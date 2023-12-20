@@ -84,7 +84,7 @@ section {
     display: flex;
     align-items: center;
     padding: 1 9%;
-    background: var(--bg-color)  no-repeat;
+    background: var(--bg-color) url(/img/my-photo.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     margin-top: 5rem;
@@ -249,7 +249,7 @@ section {
     top: 0;
     right: 0;
     width: 50%;
-    height: 110%;
+    height: 91%;
     background: transparent;
     transition: 3s;
 }
