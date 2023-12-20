@@ -84,10 +84,9 @@ section {
     display: flex;
     align-items: center;
     padding: 1 9%;
+    background: var(--bg-color) url(/img/my-photo.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    background: var(--bg-color);
-    background: url(/img/new.jpg) no-repeat;
     margin-top: 5rem;
     margin-bottom: 10rem;
 }
