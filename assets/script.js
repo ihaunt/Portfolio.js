@@ -45,7 +45,7 @@ window.onscroll = () => {
 
 // formulário
 const addLoading = () => {
-    button.innerHTML = '<img src="img/other.img/spin.png" class="loading">';
+    button.innerHTML = '<img src=""/assets/img/spin.png"" class="loading">';
 }
 
 const removeLoading = () => {

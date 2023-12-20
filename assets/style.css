@@ -87,7 +87,7 @@ section {
     background-size: cover;
     background-position: center;
     background: var(--bg-color);
-    background: url(/img/img-skill/new.jpg) no-repeat;
+    background: url(/assets/new.jpg) no-repeat;
     margin-top: 5rem;
     margin-bottom: 10rem;
 }
