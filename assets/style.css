@@ -707,16 +707,16 @@ span {
 
     .home-imgHover {
         pointer-events: none;
-        background: var(--bd-color);
+        background:var(--bd-color);
         display: none;
         opacity: .6;
     }
 
     .home,
     .portfolio{
-        background: var(--bd-color);
+        background:var(--bd-color);
     }
-    
+
     .education,
     .skills {
         display: flex;
