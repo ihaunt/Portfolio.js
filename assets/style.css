@@ -707,11 +707,14 @@ span {
 
     .home-imgHover {
         pointer-events: none;
-        background: var(--bg-color);
+        background: var(--bd-color);
         display: none;
         opacity: .6;
     }
 
+    .portfolio{
+        background: var(--bd-color);
+    }
     .education,
     .skills {
         display: flex;
@@ -722,7 +725,6 @@ span {
     .projects-container {
         flex-direction: column;
     }
-
 }
 
 @media (max-width: 520px) {
