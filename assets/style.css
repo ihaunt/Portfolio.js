@@ -712,9 +712,11 @@ span {
         opacity: .6;
     }
 
+    .home,
     .portfolio{
         background: var(--bd-color);
     }
+    
     .education,
     .skills {
         display: flex;
