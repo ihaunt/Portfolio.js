@@ -83,7 +83,7 @@ section {
     display: flex;
     align-items: center;
     padding: 1 9%;
-    background: var(--bg-color) url(/img/my-photo.png) no-repeat;
+    background: var(--bg-color) url('img/my-photo.png') no-repeat;
     background-size: cover;
     background-position: center;
     margin-top: 5rem;
