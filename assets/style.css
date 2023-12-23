@@ -717,6 +717,10 @@ span {
         opacity: .6;
     }
 
+    .home .photo{
+        display: none;
+    } 
+    
     .home,
     .portfolio{
         background:var(--bd-color);
