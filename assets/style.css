@@ -710,6 +710,7 @@ span {
         transition-delay: .25s;
     }
 
+    .photo,
     .home-imgHover {
         pointer-events: none;
         background:var(--bd-color);
@@ -717,10 +718,6 @@ span {
         opacity: .6;
     }
 
-    .home .photo{
-        display: none;
-    } 
-    
     .home,
     .portfolio{
         background:var(--bd-color);
