@@ -12,7 +12,7 @@
 }
 
 :root {
-    --bg-color: #282a36;
+    --bg-color: #2A2836;
     --bd-color: #1D1B22;
     --text-color: #F8F8F2;
     --main-color: #BD93F9;
@@ -83,8 +83,7 @@ section {
     display: flex;
     align-items: center;
     padding: 1 9%;
-    background: var(--bg-color); 
-    background-image: url(/img/my-photo.jpg) no-repeat;
+    background: var(--bg-color) no-repeat;
     background-size: cover;
     background-position: center;
     margin-top: 5rem;
@@ -137,6 +136,11 @@ section {
 .home-content p {
     font-size: 1.7rem;
     margin: 2rem 0 4rem;
+}
+
+.home .photo{
+    max-width: 1620px;
+    max-height: 1080px;
 }
 
 .btn-box {
@@ -249,7 +253,7 @@ section {
     top: 0;
     right: 0;
     width: 50%;
-    height: 91%;
+    height: 100%;
     background: transparent;
     transition: 3s;
 }
