@@ -82,7 +82,7 @@ section {
 .home {
     display: flex;
     align-items: center;
-    padding: 1 9%;
+    justify-content: center;
     background: var(--bg-color) no-repeat;
     background-size: cover;
     background-position: center;
@@ -251,22 +251,8 @@ section {
 }
 
 .home-imgHover img{
-    
-}
-
-.home-imgHover {
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    background: transparent;
-    transition: 3s;
-}
-
-
-.home-imgHover:hover {
-    background: var(--bg-color);
-    opacity: .8;
+    width: 450px;
+    border-radius: 50%;
 }
 
 span {
@@ -278,7 +264,6 @@ span {
     margin-bottom: 3rem;
     text-align: center;
 }
-
 
 .education {
     display: flex;
@@ -386,8 +371,6 @@ span {
 
 }
 
-
-
 .skills .skills-row {
     display: flex;
     flex-wrap: wrap;
@@ -417,7 +400,6 @@ span {
     max-height: 80px;
     margin: .3rem 2rem;
     padding: 1.25rem;
-
 }
 
 .icon {
