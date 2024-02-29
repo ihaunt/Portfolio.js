@@ -90,11 +90,7 @@ section {
     margin-bottom: 10rem;
 }
 
-.home .home-imgHover{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .home-content {
     max-width: 60rem;
@@ -253,6 +249,7 @@ section {
 .home-imgHover img{
     width: 450px;
     border-radius: 50%;
+    margin-left: 400px;
 }
 
 span {
@@ -453,7 +450,8 @@ span {
 }
 
 .project-pic {
-    width: 100%;
+    min-width: 100px;
+    min-height: 310px;
     height: auto;
     max-width: 100%;
     object-fit: cover;
@@ -464,12 +462,10 @@ span {
     border-radius: 11px;
     box-shadow: 0 4px 14px var(--main-color);
     padding: 20px;
-    width: 100%;
+    min-width: 300px;
+    min-height: 500px;
 }
 
-.project-container p {
-    padding: .5rem;
-}
 
 .project-title {
     padding: 2rem;
@@ -708,6 +704,10 @@ span {
     .home,
     .portfolio{
         background:var(--bd-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .education,
@@ -715,10 +715,13 @@ span {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .projects-container {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -778,6 +781,7 @@ span {
         align-items: center;
         flex-direction: column;
         text-align: center;
+        justify-content: center;
     }
 
     .home-content h1 {
